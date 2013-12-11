@@ -15,10 +15,12 @@
             <div>
                 <div class="yunzhuji_menu">
                     <ul>
-                        <?php $i=2; ?>
-                        <?php foreach ($mails as $mail): ?>
+                        <?php 
+                        $i=2;
+                        if (!isset($_GET['menu'])) $_GET['menu'] = 2;
+                        foreach ($mails as $mail): ?>
                         <li onmouseover='mover_menu(<?php echo $i.','.count($mails); ?>);' id="yunzhuji_menu_<?php echo $i.'"';
-                        if($i==2) echo ' class="menu_a"';?>>
+                        if($i == $_GET['menu']) echo ' class="menu_a"';?>>
                             <?php echo $mail['Mail']['name'];?>
                         </li>
                         <?php $i++;?>

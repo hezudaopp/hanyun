@@ -7008,3 +7008,713 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
 [main] - APP/webroot/index.php, line 110
 
+2013-12-09 06:35:27 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:35:27 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:35:27 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:35:27 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:37:30 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:37:30 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:37:30 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:37:30 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 82]
+Trace:
+include - APP/View/Items/read.ctp, line 82
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:40:49 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 83]
+Trace:
+include - APP/View/Items/read.ctp, line 83
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:40:49 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 83]
+Trace:
+include - APP/View/Items/read.ctp, line 83
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:40:49 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 83]
+Trace:
+include - APP/View/Items/read.ctp, line 83
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 06:40:49 Notice: Notice (8): Undefined index: Ip in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 83]
+Trace:
+include - APP/View/Items/read.ctp, line 83
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:32 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 22]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 22
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 25]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 25
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:30:48 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Pages/contacts.ctp, line 37]
+Trace:
+include - APP/View/Pages/contacts.ctp, line 37
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+PagesController::display() - APP/Controller/PagesController.php, line 115
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 486
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 187
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 09:31:04 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 44]
+Trace:
+include - APP/View/Items/read.ctp, line 44
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 10:25:35 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:47:17 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:48:13 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:48:30 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:53:04 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:53:28 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:55:17 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:56:52 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:57:41 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 14:58:46 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:01:07 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:02:13 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:04:05 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:04:32 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:04:39 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:05:37 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:07:19 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:07:39 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:08:08 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:08:36 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:27:36 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 146]
+Trace:
+include - APP/View/Items/read.ctp, line 146
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:27:36 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 146]
+Trace:
+include - APP/View/Items/read.ctp, line 146
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 15:27:36 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 146]
+Trace:
+include - APP/View/Items/read.ctp, line 146
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 16:42:19 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 16:44:25 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 16:45:07 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-09 16:45:25 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 03:03:51 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 03:27:57 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 03:31:23 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 181]
+Trace:
+include - APP/View/Items/read.ctp, line 181
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 03:31:23 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 181]
+Trace:
+include - APP/View/Items/read.ctp, line 181
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 03:31:23 Notice: Notice (8): Undefined index: class in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 181]
+Trace:
+include - APP/View/Items/read.ctp, line 181
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 08:26:34 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-10 12:25:05 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2013-12-11 06:19:07 Notice: Notice (8): Undefined index: menu in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Items/read.ctp, line 47]
+Trace:
+include - APP/View/Items/read.ctp, line 47
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+

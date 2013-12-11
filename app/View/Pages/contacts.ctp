@@ -19,6 +19,7 @@
                         <?php 
                         $menus = array("关于我们", "机房参观", "最新公告", "荣誉资质", "联系我们", "付款方式");
                         $len = count($menus);
+                        if (!$_GET['menu']) $_GET['menu'] = 2;
                         for ($i=2; $i<=$len+1; $i++) { ?>
                         <li onmouseover='mover_menu(<?php echo $i.','.$len ?>);' id="yunzhuji_menu_<?php echo $i.'"';
                         if($i == $_GET['menu']) echo ' class="menu_a"';?> >

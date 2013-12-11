@@ -123,7 +123,22 @@ class Item extends AppModel {
 			'finderQuery' => '',
 			'deleteQuery' => '',
 			'insertQuery' => ''
-		)
+		),
+		'Ip' => array(
+			'className' => 'Ip',
+			'joinTable' => 'items_ips',
+			'foreignKey' => 'item_id',
+			'associationForeignKey' => 'ip_id',
+			'unique' => 'keepExisting',
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'finderQuery' => '',
+			'deleteQuery' => '',
+			'insertQuery' => ''
+		),
 	);
 
 }

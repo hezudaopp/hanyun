@@ -9,12 +9,16 @@
 		<li><?php echo $this->Html->link(__('新添内存价目'), array('controller' => 'items_mems', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('所有CPU价目'), array('controller' => 'items_processers', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('新添CPU价目'), array('controller' => 'items_processers', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('所有IP价目'), array('controller' => 'items_ips', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('新添IP价目'), array('controller' => 'items_ips', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('所有硬盘类型'), array('controller' => 'disks', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('新添硬盘类型'), array('controller' => 'disks', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('所有内存类型'), array('controller' => 'mems', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('新添内存类型'), array('controller' => 'mems', 'action' => 'add')); ?> </li>
 		<li><?php echo $this->Html->link(__('所有CPU类型'), array('controller' => 'processers', 'action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('新添CPU类型'), array('controller' => 'processers', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('所有IP类型'), array('controller' => 'ips', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('新添IP类型'), array('controller' => 'ips', 'action' => 'add')); ?> </li>
 	</ul>
 	<h3><?php echo __('后台主页'); ?></h3>
 	<ul>

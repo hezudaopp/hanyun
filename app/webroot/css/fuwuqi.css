@@ -4,11 +4,28 @@
 }
 
 .fuwuqi {
-	height:994px;
+	/*height:994px;*/
 	margin-left:35px;
 	margin-right:36px;
 	width:930px;
 	/*width: inherit;*/
+}
+
+#fuwuqi_menu {
+	margin-top: 25px;
+	margin-left:10px;
+	margin-bottom:15px; 
+}
+
+#fuwuqi_menu ul li {
+	display:inline;
+	font-size:15px;
+	margin-right:36px;
+}
+
+#fuwuqi_menu .menu_a {
+	border-bottom:green solid 1px;
+	font-size:18px;
 }
 
 .fuwuqi ul li {
@@ -115,7 +132,7 @@
 	height:inherit;
 }
 
-.server_buy .price_left {
+.price_left {
 	float:left;
 	padding-top:120px;
 	font-size:24px;
@@ -134,4 +151,230 @@
 	padding-left:2px;
 	padding-top:20px;
 	float:left;
+}
+
+.server_top {
+	margin-left: 10px;
+	height: 20px;
+	line-height: 20px;
+	width: inherit;
+	color:#ff5c03;
+	font-size: 18px;
+}
+
+.server_top_left {
+	float: left;
+	font-weight: bold;
+}
+
+.server_top_right {
+	margin-top: 6px;
+	width: 800px;
+	float: left;
+}
+
+.server_bottom {
+	margin-top: 6px;
+	clear: both;
+}
+
+
+.server_bottom table {
+	width: 930px;
+	text-align: center;
+	border-spacing: 0px;
+	border-left:2px solid #d2d2d2;
+	border-top:2px solid #d2d2d2;
+	font-size: 17px;
+}
+
+.server_table_title {
+	text-align: center;
+	/*width: 110px;*/
+	font-weight:bold;
+}
+
+.server_bottom table tr td {
+	border-spacing: 0px;
+	border-right:2px solid #d2d2d2;
+	border-bottom:2px solid #d2d2d2;
+	height: 32px;
+	/*width: 110px;*/
+}
+
+.price {
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:red;
+}
+
+.pledge .server_bottom table {
+	font-size: 15px;
+	border-spacing: 0px;
+	border: 2px solid #d2d2d2;
+}
+
+.pledge .server_bottom table tr td {
+	border-spacing: 0px;
+	border: 0px;
+}
+
+.server_table_buy {
+	height: 48px;
+}
+
+.server_table_th {
+	font-size: 16px;
+}
+
+.even_row {
+	background-color: #f0f0f0;
+}
+
+.server_double {
+	margin-top: 40px;
+}
+
+.pledge {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.red_dot {
+	color: red;
+	font-weight: bold;
+}
+
+.rack {
+	width: 930px;
+	margin-bottom: 20px;
+}
+
+.rack table {
+	width: 930px;
+	border: 2px solid #d2d2d2;
+	border-spacing: 0px;
+	font-size: 17px;
+	text-align: left;
+}
+
+.rack th {
+	background-color: #f0f0f0;
+	padding-left: 10px;
+	color: #ff5c03;
+	font-size: 18px;
+	height: 30px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.rack tr td {
+	padding-left: 40px;
+	height: 50px;
+}
+
+.rack .rack_bottom_text {
+	margin-top: 16px;
+	margin-left: 20px;
+	color: #0033a8;
+	font-size: 17px;
+}
+
+.rack .double_rack {
+	margin-top: 40px;
+}
+
+.rack .rack_text {
+	text-align: left; 
+	padding-left: 20px;
+	line-height: 32px;
+	height: 32px;
+}
+
+.rack .rack_text_table th {
+	vertical-align: middle;
+	line-height: 32px;
+}
+
+.rack .rack_text_table {
+	margin-top: 40px;
+	font-size: 15px;
+}
+
+.rack .rack_text_table table tr td {
+	font-size: 15px;	
+}
+
+.bandwidth {
+	font-size: 15px;
+}
+
+.bandwidth .bandwidth_title {
+	color: #ff5c03;
+	font-size: 18px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.bandwidth table {
+	font-size: 17px;
+	width: 930px;
+	text-align: center;
+	border-spacing: 0px;
+	border-top: 2px solid #d2d2d2;
+	border-left: 2px solid #d2d2d2;
+}
+
+.bandwidth table th {
+	background-color: #f0f0f0;
+	line-height: 32px;
+	height: 32px;
+	border-spacing: 0px;
+	border-bottom: 2px solid #d2d2d2;
+	border-right: 2px solid #d2d2d2;
+}
+
+.bandwidth table tr td {
+	line-height: 32px;
+	height: 100px;
+	border-spacing: 0px;
+	border-bottom: 2px solid #d2d2d2;
+	border-right: 2px solid #d2d2d2;
+}
+
+.bandwidth .bandwidth_text {
+	height: 300px;
+	margin-top: 50px;
+	border-spacing: 0px;
+	border: 2px solid #d2d2d2;
+	background-image: url(../images/rack_diqiu.png);
+	background-repeat: no-repeat; 
+	background-position:100% 100%;
+	margin-bottom: 20px;
+}
+
+.bandwidth .bandwidth_description {
+	padding-top: 14px;
+	padding-left: 32px;
+	line-height: 32px;
+}
+
+.bandwidth .bandwidth_feature {
+	margin-top: 20px;
+	padding-left: 48px;
+}
+
+.bandwidth .bandwidth_feature_title {
+	font-weight: bold;
+}
+
+.bandwidth .bandwidth_feature_detail {
+	padding-left: 4px;
+	padding-top: 10px;
+	line-height: 32px;
+}
+
+.bandwidth .bandwidth_feature_jiantou {
+	margin-right: 4px;
 }

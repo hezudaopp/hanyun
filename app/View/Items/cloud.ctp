@@ -6,9 +6,9 @@
       <?php echo $this->Html->css('yunzhuji'); ?>
       <?php echo $this->Html->script(array('price')); ?>
 </head>
-<body onLoad="findA(3);" bgcolor="#ffffff" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" class="gen-1">
+<body onLoad="findA(3); <?php $size=count($items); for($i=0; $i<$size; $i++) { ?> resetPriceCloud(<?php echo $i+2; ?>); <?php } ?>" bgcolor="#ffffff" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0" class="gen-1">
         <?php 
-// debug($items); 
+debug($items); 
         ?>
         <?php echo $this->element('header'); ?>
         <?php echo $this->element('level5'); ?>
@@ -17,10 +17,12 @@
             <div class="yunzhuji">
                 <div class="yunzhuji_menu">
                     <ul>
-                        <?php $i=2; ?>
-                        <?php foreach ($items as $item): ?>
+                        <?php 
+                        $i=2;
+                        if (!isset($_GET['menu'])) $_GET['menu'] = 2;
+                        foreach ($items as $item): ?>
                         <li onmouseover='mover_menu(<?php echo $i.','.count($items); ?>);' id="yunzhuji_menu_<?php echo $i.'"';
-                        if($i==2) echo ' class="menu_a"';?>>
+                        if($i == $_GET['menu']) echo ' class="menu_a"';?>>
                             <?php echo substr($item['Item']['name'], 0, 9); ?>
                         </li>
                         <?php $i++;?>
@@ -32,14 +34,16 @@
                 <div class="yunzhuji_left" id="yunzhuji_left_<?php echo $i.'"'; 
                 if ($i!=2) echo ' style="display:none;"' ?>>
                     <div class="yunzhuji_arg">
-                        <div class="yunzhuji_arg_sale"></div>
+                        <!-- <div class="yunzhuji_arg_sale"></div> -->
                         <dl>
                             <dt style="margin-top:26px;">CPU：</dt>
                             <dd style="margin-top:6px;">   
                                 <ul class="yunzhuji_arg_btn">
-                                <?php foreach ($item['Processer'] as $processer): ?>
-                                    <li <?php if ($processer['ItemsProcesser']['price'] == 0.00) echo ' class="select"';?>
-                                        onclick="resetPriceCloud(this)">
+                                <?php 
+                                $select = true;
+                                foreach ($item['Processer'] as $processer): ?>
+                                    <li <?php if ($select) { echo ' class="select"'; $select = false;}?>
+                                        onclick="resetPriceCloud(0, this)">
                                         <input type="hidden" name="cpu_<?php echo $i;?>" value="<?php echo $processer['ItemsProcesser']['price']; ?>" t-name="<?php echo $processer['name']; ?>" >
                                         <a href="javascript:void(0);">
                                             <i class="ico"><?php echo $processer['name']; ?></i>
@@ -51,9 +55,11 @@
                         <dt>内存：</dt>
                             <dd>   
                                     <ul class="yunzhuji_arg_btn">
-                                    <?php foreach ($item['Mem'] as $mem): ?>
-                                    <li <?php if ($mem['ItemsMem']['price'] == 0.00) echo ' class="select"'?>
-                                        onclick="resetPriceCloud(this)">
+                                    <?php 
+                                    $select = true;
+                                    foreach ($item['Mem'] as $mem): ?>
+                                    <li <?php if ($select) { echo ' class="select"'; $select = false;}?>
+                                        onclick="resetPriceCloud(0, this)">
                                         <input type="hidden" name="mem_<?php echo $i;?>" value="<?php echo $mem['ItemsMem']['price']; ?>" t-name="<?php echo $mem['name']; ?>" >
                                         <a href="javascript:void(0);">
                                             <i class="ico"><?php echo $mem['name']; ?></i>
@@ -65,9 +71,11 @@
                         <dt>硬盘：</dt>
                             <dd>   
                                     <ul class="yunzhuji_arg_btn">
-                                    <?php foreach ($item['Disk'] as $disk): ?>
-                                    <li <?php if ($disk['ItemsDisk']['price'] == 0.00) echo ' class="select"'?>
-                                        onclick="resetPriceCloud(this)">
+                                    <?php 
+                                    $select = true;
+                                    foreach ($item['Disk'] as $disk): ?>
+                                    <li <?php if ($select) { echo ' class="select"'; $select = false;}?>
+                                        onclick="resetPriceCloud(0, this)">
                                         <input type="hidden" name="disk_<?php echo $i;?>" value="<?php echo $disk['ItemsDisk']['price']; ?>" t-name="<?php echo $disk['name']; ?>" >
                                         <a href="javascript:void(0);">
                                             <i class="ico"><?php echo $disk['name']; ?></i>
@@ -76,10 +84,26 @@
                                 <?php endforeach ?>
                                 </ul>
                             </dd>
+                            <!-- <dt class="yunzhuji_info">IP：</dt> -->
+                            <!-- <dd>联通独立IP</dd> -->
+                            <dt>IP：</dt>
+                            <dd>   
+                                    <ul class="yunzhuji_arg_btn">
+                                    <?php 
+                                    $select = true;
+                                    foreach ($item['Ip'] as $ip): ?>
+                                    <li <?php if ($select) { echo ' class="select"'; $select = false;}?>
+                                        onclick="resetPriceCloud(0, this)">
+                                        <input type="hidden" name="ip_<?php echo $i;?>" value="<?php echo $ip['ItemsIp']['price']; ?>" t-name="<?php echo $ip['name']; ?>" >
+                                        <a href="javascript:void(0);">
+                                            <i class="ico"><?php echo substr($ip['name'], 0, 6); ?></i>
+                                        </a>
+                                    </li>
+                                <?php endforeach ?>
+                                </ul>
+                            </dd>
                             <dt class="yunzhuji_info">带宽：</dt>
                             <dd><span>百兆共享</span></dd>
-                            <dt class="yunzhuji_info">IP：</dt>
-                            <dd>联通独立IP</dd>
                             <dt class="yunzhuji_info">操作系统：</dt>
                             <dd>Windows/Linux任选</dd>
                         </dl>

@@ -36,7 +36,11 @@
 					<tr>
 					<tr>
 						<td></td>
-						<td id="item_info_price">价格：1T</td>
+						<td id="item_info_ip">IP：联通独立IP</td>
+					<tr>
+					<tr>
+						<td></td>
+						<td id="item_info_price">价格：0元</td>
 					<tr>
 				</table>
 			</div>

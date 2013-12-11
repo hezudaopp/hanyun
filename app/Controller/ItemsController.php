@@ -7,7 +7,7 @@ App::uses('AppController', 'Controller');
  */
 class ItemsController extends AppController {
 
-	public $uses = array('Item','Order');
+	public $uses = array('Item', 'Order', 'Rack');
 
 /**
  * index method
@@ -31,6 +31,38 @@ class ItemsController extends AppController {
 		    )
     	);
     	$this->set('items', $this->paginate('Item'));
+    	$this->set('unicom_servers', $this->Rack->find('all', array(
+    		'conditions' => array(
+    			'Rack.name' => '服务器托管',
+    			'Rack.operator' => '联通'
+    		),
+    		'limit' => 3
+    	)
+    	));
+    	$this->set('double_servers', $this->Rack->find('all', array(
+    		'conditions' => array(
+    			'Rack.name' => '服务器托管',
+    			'Rack.operator' => '双线'
+    		),
+    		'limit' => 3
+    	)
+    	));
+    	$this->set('unicom_racks', $this->Rack->find('all', array(
+    		'conditions' => array(
+    			'Rack.name' => '机柜租用',
+    			'Rack.operator' => '联通'
+    		),
+    		'limit' => 1
+    	)
+    	));
+    	$this->set('double_racks', $this->Rack->find('all', array(
+    		'conditions' => array(
+    			'Rack.name' => '机柜租用',
+    			'Rack.operator' => '双线'
+    		),
+    		'limit' => 1
+    	)
+    	));
 	}
 
 	public function cloud() {

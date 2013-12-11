@@ -4,11 +4,13 @@ function setIndexInfo (obj) {
 	var item_mem_tag = document.getElementById("mem_" + obj);
 	var item_disk_tag = document.getElementById("disk_" + obj);
 	var item_price_tag = document.getElementById("price_" + obj);
+	var item_ip_tag = document.getElementById("ip_" + obj);
 	document.getElementById("item_info_name").innerHTML = "";
 	document.getElementById("item_info_cpu").innerHTML = "";
 	document.getElementById("item_info_mem").innerHTML = "";
 	document.getElementById("item_info_disk").innerHTML = "";
 	document.getElementById("item_info_price").innerHTML = "";
+	document.getElementById("item_info_ip").innerHTML = "";
 	if (item_name_tag != null) {
 		var item_name = item_name_tag.value;
 		document.getElementById("item_info_name").innerHTML=item_name;
@@ -33,7 +35,12 @@ function setIndexInfo (obj) {
 		var item_price = item_price_tag.innerHTML;
 		document.getElementById("item_info_price").innerHTML="价格：￥" + item_price + "元";
 		document.getElementById("OrderPrice").value=item_price;
-	}	
+	}
+	if (item_ip_tag != null) {
+		var item_ip = item_ip_tag.innerHTML;
+		document.getElementById("item_info_ip").innerHTML="价格：￥" + item_ip + "元";
+		document.getElementById("OrderIp").value=item_ip;
+	}		
 }
 
 function setReadInfo(i) {
@@ -41,11 +48,13 @@ function setReadInfo(i) {
 	var cpu_price_tag = "cpu_" + i;
 	var mem_price_tag = "mem_" + i;
 	var disk_price_tag = "disk_" + i;
+	var ip_price_tag = "ip_" + i;
 	var price_tag = "price_" + i;
 	document.getElementById("item_info_name").innerHTML = "";
 	document.getElementById("item_info_cpu").innerHTML = "";
 	document.getElementById("item_info_mem").innerHTML = "";
 	document.getElementById("item_info_disk").innerHTML = "";
+	document.getElementById("item_info_ip").innerHTML = "";
 	document.getElementById("item_info_price").innerHTML = "";
 	var item_name_tag_obj = document.getElementById(item_name_tag);
 	if (item_name_tag_obj != null) {
@@ -82,6 +91,17 @@ function setReadInfo(i) {
 			break;
 		}
 	}
+
+	var ip_price_tag_obj = document.getElementsByName(ip_price_tag);
+	for(i=0;i<ip_price_tag_obj.length;i++){
+		if(ip_price_tag_obj[i].checked) {
+			var item_ip = trim(ip_price_tag_obj[i].attributes["t-name"].value);
+			document.getElementById("item_info_ip").innerHTML="IP：" + item_ip;
+			document.getElementById("OrderDiskName").value=item_ip;
+			break;
+		}
+	}
+
 	
 	var price_tag_obj = document.getElementById(price_tag);
 	if (price_tag_obj != null) {
@@ -96,11 +116,13 @@ function setCloudInfo(i) {
 	var cpu_price_tag = "cpu_" + i;
 	var mem_price_tag = "mem_" + i;
 	var disk_price_tag = "disk_" + i;
+	var ip_price_tag = "ip_" + i;
 	var price_tag = "price_" + i;
 	document.getElementById("item_info_name").innerHTML = "";
 	document.getElementById("item_info_cpu").innerHTML = "";
 	document.getElementById("item_info_mem").innerHTML = "";
 	document.getElementById("item_info_disk").innerHTML = "";
+	document.getElementById("item_info_ip").innerHTML = "";
 	document.getElementById("item_info_price").innerHTML = "";
 	var item_name_tag_obj = document.getElementById(item_name_tag);
 	if (item_name_tag_obj != null) {
@@ -138,6 +160,16 @@ function setCloudInfo(i) {
 		}
 	}
 	
+	var ip_price_tag_obj = document.getElementsByName(ip_price_tag);
+	for(i=0;i<ip_price_tag_obj.length;i++){
+		if(ip_price_tag_obj[i].parentNode.className == "select") {
+			var item_ip = ip_price_tag_obj[i].attributes["t-name"].value;
+			document.getElementById("item_info_ip").innerHTML="IP：" + item_ip;
+			document.getElementById("OrderDiskName").value=item_ip;
+			break;
+		}
+	}
+
 	var price_tag_obj = document.getElementById(price_tag);
 	if (price_tag_obj != null) {
 		var price = price_tag_obj.innerHTML;
@@ -189,12 +221,14 @@ function siblings(elm) {
 	return a;
 }
 
-function resetPrice(radio) {
-	var i = radio.name.substr(radio.name.length-1, 1);
+function resetPrice(i, radio) {
+	if (radio != undefined)
+		var i = radio.name.substr(radio.name.length-1, 1);
 	var base_price_tag = "base_price_" + i;
 	var cpu_price_tag = "cpu_" + i;
 	var mem_price_tag = "mem_" + i;
 	var disk_price_tag = "disk_" + i;
+	var ip_price_tag = "ip_" + i;
 	var price_tag = "price_" + i;
 	var base_price = document.getElementById(base_price_tag).value;
 	var cpu_price_tag_obj = document.getElementsByName(cpu_price_tag);
@@ -221,21 +255,33 @@ function resetPrice(radio) {
 			break;
 		}
 	}
+
+	var ip_price_tag_obj = document.getElementsByName(ip_price_tag);
+	for(i=0;i<ip_price_tag_obj.length;i++){
+		if(ip_price_tag_obj[i].checked) {
+			price += parseInt(ip_price_tag_obj[i].value);
+			break;
+		}
+	}
+
 	document.getElementById(price_tag).innerHTML = price;
 }
 
-function resetPriceCloud(li) {
-	li.className="select";
-	sib = siblings(li);
-	for (i=0; i<sib.length; i++) {
-		sib[i].className="";
+function resetPriceCloud(j, li) {
+	if (li != undefined) {
+		li.className="select";
+		sib = siblings(li);
+		for (i=0; i<sib.length; i++) {
+			sib[i].className="";
+		}
+		var inputs = li.getElementsByTagName("input");
+		var j = inputs[0].name.substr(inputs[0].name.length-1);
 	}
-	var inputs = li.getElementsByTagName("input");
-	var j = inputs[0].name.substr(inputs[0].name.length-1);
 	var base_price_tag = "base_price_" + j;
 	var cpu_price_tag = "cpu_" + j;
 	var mem_price_tag = "mem_" + j;
 	var disk_price_tag = "disk_" + j;
+	var ip_price_tag = "ip_" + j;
 	var price_tag = "price_" + j;
 	var base_price = document.getElementById(base_price_tag).value;
 	var cpu_price_tag_obj = document.getElementsByName(cpu_price_tag);
@@ -262,5 +308,14 @@ function resetPriceCloud(li) {
 			break;
 		}
 	}
+
+	var ip_price_tag_obj = document.getElementsByName(ip_price_tag);
+	for(i=0;i<ip_price_tag_obj.length;i++){
+		if(ip_price_tag_obj[i].parentNode.className=="select") {
+			price += parseInt(ip_price_tag_obj[i].value);
+			break;
+		}
+	}
+
 	document.getElementById(price_tag).innerHTML = price;
 }

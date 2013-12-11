@@ -89,10 +89,27 @@
                 <div class="subbox">
                     <ul class="smenu" style="z-index:inherit">
                         <li style="padding-left:0px; " id="s_1" class='s_li_a'> 欢迎光临汉云科技，我们将竭诚为您提供最优质的服务！ </li>
-                        <li style="padding-left:50px;" id="s_2" class='s_li'> 汉云科技自主研发多款节能型集群式服务器，满足您不同需求！ </li>
-                        <li style="padding-left:150px;" id="s_3" class='s_li'> 汉云*云主机完美调度IT资源，用户资源按需使用，弹性扩展，在线管理！ </li>
+                        <!-- <li style="padding-left:50px;" id="s_2" class='s_li'> 汉云科技自主研发多款节能型集群式服务器，满足您不同需求！ </li> -->
+                        <li style="padding-left:50px;" id="s_2" class='s_li'> 
+                            <?php echo $this->Html->link(__('服务器租用'), array('controller' => 'items', 'action' => 'read?menu=2')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('服务器托管'), array('controller' => 'items', 'action' => 'read?menu=3')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('机柜租用'), array('controller' => 'items', 'action' => 'read?menu=4')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('带宽租赁'), array('controller' => 'items', 'action' => 'read?menu=5')); ?>
+                        </li>
+                        <li style="padding-left:200px;" id="s_3" class='s_li'>
+                            <!-- 汉云*云主机完美调度IT资源，用户资源按需使用，弹性扩展，在线管理！  -->
+                            <?php echo $this->Html->link(__('学习型'), array('controller' => 'items', 'action' => 'cloud?menu=2')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('基础型'), array('controller' => 'items', 'action' => 'cloud?menu=3')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('商务型'), array('controller' => 'items', 'action' => 'cloud?menu=4')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('超算型'), array('controller' => 'items', 'action' => 'cloud?menu=5')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('至尊型'), array('controller' => 'items', 'action' => 'cloud?menu=6')); ?>
+                        </li>
                         <li style="padding-left:280px;" id="s_4" class='s_li'> 汉云*云存储提供移动数据安全存储，轻松管理您的个人数据！ </li>
-                        <li style="padding-left:410px;" id="s_5" class='s_li'> 汉云*云邮箱提供海量存储空间，您企业邮局的最佳选择！！ </li>
+                        <li style="padding-left:530px;" id="s_5" class='s_li'>
+                            <!-- 汉云*云邮箱提供海量存储空间，您企业邮局的最佳选择！！  -->
+                            <?php echo $this->Html->link(__('G-云邮箱'), array('controller' => 'mails', 'action' => 'read?menu=2')); ?>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo $this->Html->link(__('T-云邮箱'), array('controller' => 'mails', 'action' => 'read?menu=3')); ?>
+                        </li>
                         <li style="padding-left:540px;" id="s_6" class='s_li'> 汉云科技为您提供最全面的云解决方案，满足您不同需求！ </li>
                         <!-- <li style="float:right; padding-right:200px;" id="s_7" class='s_li'> <a href="#"  title="服务器">服务器</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="#"  title="云办公">云办公</a> </li> -->
                         <li style="float:right;" id="s_7" class='s_li'> 
