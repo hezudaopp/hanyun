@@ -7718,3 +7718,36 @@ Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
 Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
 [main] - APP/webroot/index.php, line 110
 
+2014-01-15 11:12:37 Notice: Notice (8): Undefined variable: fck in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Articles/add.ctp, line 22]
+Trace:
+include - APP/View/Articles/add.ctp, line 22
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-01-15 11:22:17 Notice: Notice (8): Undefined variable: javascript in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Articles/add.ctp, line 3]
+Trace:
+include - APP/View/Articles/add.ctp, line 3
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+
+2014-01-15 11:39:23 Notice: Notice (8): Undefined variable: html in [/Applications/XAMPP/xamppfiles/htdocs/hanyun/app/View/Articles/add.ctp, line 14]
+Trace:
+include - APP/View/Articles/add.ctp, line 14
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 471
+Controller::render() - CORE/Cake/Controller/Controller.php, line 948
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 162
+[main] - APP/webroot/index.php, line 110
+

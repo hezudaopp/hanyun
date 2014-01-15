@@ -10,7 +10,14 @@
 		<legend><?php echo __('Add Article'); ?></legend>
 	<?php
 		echo $this->Form->input('title');
-		echo $this->Fck->fckeditor(array('Article', 'introtext'), $this->html->base, null);
+		echo $this->Tinymce->input('Article.introtext', array( 
+            'label' => 'Content' 
+            ),array( 
+                'language'=>'en' 
+            ), 
+            'full' 
+        ); 
+		// echo $this->Fck->fckeditor(array('Article', 'introtext'), $this->html->base, null);
 //		echo $this->Form->input('category');
 		echo $this->Form->input('category', array(
 			'options' => array('公司公告' => '公司公告', '业界新闻' => '业界新闻'),

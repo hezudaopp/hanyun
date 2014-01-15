@@ -8,7 +8,7 @@ App::uses('AppController', 'Controller');
 class ArticlesController extends AppController {
 
 	public $uses = array('Article','User');
-	public $helpers = array('Form', 'Html', 'Fck');
+	public $helpers = array('Tinymce');
 	
 /**
  * index method

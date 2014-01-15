@@ -7,8 +7,15 @@
 	<?php
 		echo $this->Form->input('id');
 		echo $this->Form->input('title');
+		echo $this->Tinymce->input('Article.introtext', array( 
+            'label' => 'Content' 
+            ),array( 
+                'language'=>'en' 
+            ), 
+            'full' 
+        ); 
 		// echo $this->Form->input('introtext');
-		echo $this->Fck->fckeditor(array('Article', 'introtext'), $this->html->base, $this->data['Article']['introtext']);
+		// echo $this->Fck->fckeditor(array('Article', 'introtext'), $this->html->base, $this->data['Article']['introtext']);
 		//		echo $this->Form->input('category');
 		echo $this->Form->input('category', array(
 			'options' => array('公司公告' => '公司公告', '业界新闻' => '业界新闻'),
